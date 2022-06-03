@@ -3,8 +3,9 @@
 
 - [NodeJs](https://nodejs.org/en/download/)
   -- NodeJs's installation includes Chocolatey, a windows package manager, so commands that begin with `chocho` should be executable from any admin console.
-- [Yarn](https://yarnpkg.com/) package manager, if not already on your system. This is an alternative to Npm. Yarn is maintained by Facebook and known to be faster. It will replace your `npm` console commands.
-  - `choco install yarn`
+- [Yarn](https://yarnpkg.com/) package manager is a faster alternative to Npm. Yarn is maintained by Facebook.  It will replace your `npm` console commands. 
+    - To install run:`choco install yarn`
+    Check out package.
 
 ###### 2. Browser Tools
 - Vue Dev Tools _(Browser Extension available in Chrome Store/ Firefox)_
