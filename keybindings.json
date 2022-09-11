@@ -5,10 +5,6 @@
     "command": "saveAll"
   },
   {
-    "key": "ctrl+k s",
-    "command": "-saveAll"
-  },
-  {
     "key": "ctrl+s",
     "command": "-workbench.action.files.save"
   }

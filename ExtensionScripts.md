@@ -1,42 +1,98 @@
-### Paste this into a terminal as one command to install all the extensions I use for Vue 3 + Vite.
+## General 
+###### Editor Utilities
 ```
+code --install-extension Equinusocio.vsc-community-material-theme
+code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension adammaras.overtype
-code --install-extension antfu.browse-lite
-code --install-extension antfu.vite
-code --install-extension bradlc.vscode-tailwindcss
-code --install-extension christian-kohler.npm-intellisense 
+code --install-extension Tyriar.sort-lines
+code --install-extension nick-rudenko.back-n-forth
+code --install-extension zjffun.gotofolder
+code --install-extension steoates.autoimport
+code --install-extension christian-kohler.npm-intellisense
 code --install-extension christian-kohler.path-intellisense
-code --install-extension csstools.postcss
-code --install-extension DavidAnson.vscode-markdownlint
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension eamodio.gitlens
-code --install-extension esbenp.prettier-vscode
-code --install-extension formulahendry.auto-close-tag
+```
+<small>_*Note: see `path-intellisense` support page for required settings.json modification_</small>
+
+###### Git
+```
 code --install-extension mhutchie.git-graph
-code --install-extension mikestead.dotenv
+code --install-extension eamodio.gitlens
+
+```
+
+###### Lint & Format
+```
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension rvest.vs-code-prettier-eslint
+code --install-extension DavidAnson.vscode-markdownlint
+code --install-extension sibiraj-s.vscode-scss-formatter
+```
+
+---
+
+## Styling
+###### General Css
+```
+code --install-extension csstools.postcss
+code --install-extension syler.sass-indented
+
+```
+
+###### Tailwind
+```
+code --install-extension bradlc.vscode-tailwindcss
+
+```
+---
+
+## Language Services
+###### General Web
+```
+code --install-extension ecmel.vscode-html-css
+code --install-extension ms-vscode.vscode-typescript-tslint-plugin
+```
+
+###### Vue 3
+```
+code --install-extension Vue.volar
+code --install-extension sdras.vue-vscode-snippets
+code --install-extension Wscats.vue
+
+```
+
+###### Angular
+```
+code --install-extension Angular.ng-template
+```
+
+###### Python
+```
 code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
-code --install-extension ms-toolsai.jupyter sai.jupyter-keymap
+code --install-extension ms-toolsai.jupyter
+code --install-extension ms-toolsai.jupyter-keymap
 code --install-extension ms-toolsai.jupyter-renderers
-code --install-extension ms-vscode.vscode-typescript-tslint-plugin
-code --install-extension nick-rudenko.back-n-forth
-code --install-extension sdras.vue-vscode-snippets
-code --install-extension sibiraj-s.vscode-scss-formatter
-code --install-extension steoates.autoimport
-code --install-extension streetsidesoftware.code-spell-checker
-code --install-extension syler.sass-indented
-code --install-extension Tyriar.sort-lines
+
+```
+
+###### Containers
+```
+code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension ms-kubernetes-tools.vscode-kubernetes-tools
+
+```
+
+---
+# Chopping Block
+###### _Things I'm going to try to live without because I think it's bugging other stuff out_
+```
 code --install-extension VisualStudioExptTeam.vscodeintellicode
-code --install-extension Vue.volar
-code --install-extension Wscats.vue
+code --install-extension antfu.browse-lite
+code --install-extension antfu.vite
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension esbenp.prettier-vscode
+code --install-extension redhat.vscode-yaml
+code --install-extension ritwickdey.LiveServer
 code --install-extension xabikos.JavaScriptSnippets
-code --install-extension zjffun.gotofolder
 ```
-
-### To create a list of your installed extensions, run:
-```
-code --list-extensions | % { "code --install-extension $_" }
-```
-The output can be saved or pasted into another terminal to share the love.
-
-Credit to <a href="https://stackoverflow.com/questions/35773299/how-can-you-export-the-visual-studio-code-extension-list" target="_blank">this guy on StackOverflow</a>

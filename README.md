@@ -11,7 +11,13 @@
 - Vue Dev Tools _(Browser Extension available in Chrome Store/ Firefox)_
 
 ###### 3. Vs Code Extensions
-- You can install all recommended extensions at once by pasting in the contents of `ExtensionsScripts.md` into your terminal.
+- You can install appropriate extensions all at once by pasting in the contents of `ExtensionsScripts.md` into your terminal.  
+
+    To create a list of your installed extensions, run:
+    ```
+    code --list-extensions | % { "code --install-extension $_" }
+    ```
+    The output can be saved or pasted into another terminal to share the love.  _All credit to <a href="https://stackoverflow.com/questions/35773299/how-can-you-export-the-visual-studio-code-extension-list" target="_blank">this guy on StackOverflow</a>_
 
 ###### 4. Vs Code Settings
 - Typical Keybindings, Settings, Snippets location:
