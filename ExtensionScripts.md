@@ -22,11 +22,16 @@ code --install-extension eamodio.gitlens
 
 ###### Lint & Format
 ```
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension rvest.vs-code-prettier-eslint
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension sibiraj-s.vscode-scss-formatter
 ```
+
+These look like a good combination, but I haven't yet succesfully apply required settings to an existing project:
+```
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension rvest.vs-code-prettier-eslint
+```
+<small>_*Note: see `rvest.vs-code-prettier-eslint` support page for required dependencies and settings_</small>
 
 ---
 
